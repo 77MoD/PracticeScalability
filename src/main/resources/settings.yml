@@ -1,0 +1,11 @@
+# ScalabilityPlugin Types:
+# - Schematics
+# - Custom
+# Note: Use custom only if you have a plugin that handles the scalability system and has its own scalability instance
+scalability-type: Schematics
+# Change it to false if you don't want the specified command
+commands:
+  create:
+    permission: "scalability.create"
+  import:
+    permission: "scalability.import"

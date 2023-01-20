@@ -1,0 +1,10 @@
+main: dev.m7mqd.practice.impl.spigot.legacy.ScalabilityPlugin
+name: Scalability
+version: ${project.version}
+author: 77mod
+depend:
+  - WorldEdit
+  - FastAsyncWorldEdit
+commands:
+  createschematic:
+  debugschematic:
